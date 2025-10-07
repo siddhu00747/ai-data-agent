@@ -13,3 +13,9 @@ Stack: React (Vite) frontend + FastAPI backend + DuckDB for analytics. LLM integ
    python -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser  # code se phele admin mai run kr
+
+
+Set-ExecutionPolicy Restricted -Scope CurrentUser    # bnd krne k liye
+
